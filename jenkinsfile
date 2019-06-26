@@ -2,4 +2,10 @@ node {
      stage ('stage1') {
 	sh 'echo "automate this thing..!"'
      }
+     stage ('stage2') {
+ 	sh 'echo "THis is fun..!"'
+     }
+     stage ('stage3') {
+	sh 'echo "doneee!!!!!!"'
+     }
 }
